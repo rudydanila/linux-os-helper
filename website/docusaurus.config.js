@@ -10,8 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'OS',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -47,10 +46,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
@@ -58,11 +53,6 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -77,38 +67,22 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'OS',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'sidebar1', // <- from sidebar.js
-            position: 'left',
-            label: 'Характеристика Linux. Unix-подобные системы',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'sidebar2', // <- from sidebar.js
-            position: 'left',
-            label: 'Администрирование ОС Linux',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'sidebar3', // <- from sidebar.js
-            position: 'left',
-            label: 'Настройка ОС и установка программ',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/second-blog', label: 'Second Blog', position: 'left'}, 
+          {type: 'docSidebar', sidebarId: 'sidebar1', position: 'left', label: 'Глава 1',},
+          {type: 'docSidebar', sidebarId: 'sidebar2', position: 'left', label: 'Глава 2',},
+          {type: 'docSidebar', sidebarId: 'sidebar3', position: 'left', label: 'Глава 3',},
+          {type: 'docSidebar', sidebarId: 'sidebar4', position: 'left', label: 'Глава 4',},
+          
       ],
       },
       footer: {
@@ -124,32 +98,11 @@ const config = {
             ],
           },
           {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/rudydanila/practice-project',
               },
             ],
           },

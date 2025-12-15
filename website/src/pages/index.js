@@ -3,13 +3,14 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  
   return (
+    
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
@@ -19,8 +20,32 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux">
+            Глава 1. Ввод в ОС Linux.
+          </Link>
+        </div>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/sidebar2/Администрирование ОС'">
+            Глава 2. Администрирование и управление ОС.
+          </Link>
+        </div>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux">
+            Глава 3: Настройка ОС и установка программ, Файловая система.
+          </Link>
+        </div>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux">
+            Глава 4: Работа с консолью. изучение основных команд и их применение.
           </Link>
         </div>
       </div>
