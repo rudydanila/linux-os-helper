@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/sidebar1/Установка Linux.md",
+                "file": "docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Установка Linux"
+              "title": "ОС Linux и семейство UNIX. Дистрибутивы Linux"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#flashcards",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +76,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Поиск"
+              "title": "Search"
             }
           },
           {
@@ -194,13 +194,16 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidiosaurus:Obsidiosaurus": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "minimal-quiz:Start quiz": false,
+      "flashcard-gen:Quiz Generator": false
     }
   },
   "active": "3a908d26758cbebb",
   "lastOpenFiles": [
+    "ОС Linux и семейство UNIX. Дистрибутивы Linux Quiz.md",
+    "docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux.md",
+    "docs/sidebar1/Лабораторные работы/Инсталляция Linux.md",
+    "docs/sidebar1/Установка Linux.md",
     "docs/sidebar3/Лабораторные работы/Файловый менеджер. ЛР 16.md",
     "docs/sidebar3/Лабораторные работы/Управление файловой системой. ЛР 15.md",
     "docs/sidebar3/Лабораторные работы/Табличный процессор. ЛР 18.mdx",
@@ -229,14 +232,10 @@
     "docs/sidebar23/Настройка ОС.md",
     "docs/sidebar2/Лабораторные работы/Управление файловой системой. ЛР 15.md",
     "docs/sidebar1/Пользовательский интерфейс..md",
-    "docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux.md",
-    "docs/sidebar1/Установка Linux.md",
     "docs/sidebar2/Процессы в ОС.md",
     "docs/sidebar2/Лабораторные работы/Управление файловой системой. ЛР 17.md",
     "docs/sidebar2/Лабораторные работы/Файловый менеджер. ЛР 16.md",
     "docs/sidebar2/Лабораторные работы/Файловый менеджер.md",
-    "docs/sidebar2/Лабораторные работы/Управление файловой системой.md",
-    "docs/sidebar2/Лабораторные работы/Исследование настроек интерфейса. Работа с текстовым редактором и табличным процессором..md",
     "assets/Pasted image 20251216094702.png",
     "assets/Pasted image 20251216094607.png",
     "assets/niripreviewnew.gif",

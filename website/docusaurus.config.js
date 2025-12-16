@@ -100,7 +100,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
+                label: 'Код проекта (GitHub)',
                 href: 'https://github.com/rudydanila/practice-project',
               },
             ],

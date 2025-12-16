@@ -1,59 +1,47 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React, { useEffect, useRef } from 'react';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
+import Link from '@docusaurus/Link';
 import styles from './index.module.css';
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  
-  return (
-    
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux">
-            Глава 1. Ввод в ОС Linux. Особенности UI
-          </Link>
-        </div>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/sidebar2/Терминал и командная строка в Linux">
-            Глава 2: Работа с терминалом, правами доступа и Администрирование ОС.
-          </Link>
-        </div>
-         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="docs/sidebar3/Настройка ОС">
-            Глава 3. Настройка, управление ОС. Файловые системы
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const parallaxRef = useRef(null);
+
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      const x = (e.clientX / window.innerWidth - 0.5) * 40;
+      const y = (e.clientY / window.innerHeight - 0.5) * 40;
+
+      if (parallaxRef.current) {
+        parallaxRef.current.style.transform = `translate(${x}px, ${y}px)`;
+      }
+    };
+
+    window.addEventListener('mousemove', handleMouseMove);
+    return () => window.removeEventListener('mousemove', handleMouseMove);
+  }, []);
+
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
+    <Layout title="Операционные системы" description="Учебный портал по Linux и UNIX">
+      <main className={styles.hero}>
+        
+        {/* Параллакс-контейнер */}
+        <div className={styles.parallaxLayer} ref={parallaxRef}>
+          <div className={styles.blob1}></div>
+          <div className={styles.blob2}></div>
+          <div className={styles.blob3}></div>
+        </div>
+
+        <div className={styles.glassBox}>
+          <h1 className={styles.title}>Операционные системы</h1>
+          <p className={styles.subtitle}>Учебный портал по Linux</p>
+
+          <div className={styles.buttonGrid}>
+            <Link className={styles.button} to="/docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux">Глава 1</Link>
+            <Link className={styles.button} to="/docs/sidebar2/Терминал и командная строка в Linux">Глава 2</Link>
+            <Link className={styles.button} to="/docs/sidebar3/Настройка ОС">Глава 3</Link>
+          </div>
+        </div>
+
       </main>
     </Layout>
   );
