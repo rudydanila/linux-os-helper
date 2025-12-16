@@ -53,14 +53,12 @@
             "id": "40103d237f8a85cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "docs/sidebar1/Установка Linux.md",
-                "mode": "source",
-                "source": false
+                "file": "assets/niripreviewnew.gif"
               },
-              "icon": "lucide-file",
-              "title": "Установка Linux"
+              "icon": "lucide-image",
+              "title": "niripreviewnew"
             }
           }
         ],
@@ -224,11 +222,11 @@
       "obsidiosaurus:Obsidiosaurus": false
     }
   },
-  "active": "40103d237f8a85cd",
+  "active": "4adf4168efd9152b",
   "lastOpenFiles": [
-    "docs/sidebar1/Пользовательский интерфейс..md",
-    "assets/niripreview.gif",
     "docs/sidebar1/Установка Linux.md",
+    "docs/sidebar1/Пользовательский интерфейс..md",
+    "assets/niripreviewnew.gif",
     "docs/sidebar2/Лабораторные работы/Управление файловой системой.md",
     "docs/sidebar2/Настройка ОС.md",
     "docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux.md",
