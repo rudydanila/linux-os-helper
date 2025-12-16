@@ -28,16 +28,16 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/sidebar2/Администрирование ОС'">
-            Глава 2. Настройка, управление ОС. Файловые системы
+            to="/docs/sidebar2/Терминал и командная строка в Linux">
+            Глава 2: Работа с терминалом, правами доступа и Администрирование ОС.
           </Link>
         </div>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/sidebar3/ОС Linux и семейство UNIX. Дистрибутивы Linux">
-            Глава 3: Работа с терминалом, правами доступа и Администрирование ОС.
+            to="docs/sidebar3/Настройка ОС">
+            Глава 3. Настройка, управление ОС. Файловые системы
           </Link>
         </div>
       </div>

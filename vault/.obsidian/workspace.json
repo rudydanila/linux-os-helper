@@ -27,44 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/sidebar2/Процессы в ОС.md",
+                "file": "docs/sidebar1/Установка Linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Процессы в ОС"
-            }
-          },
-          {
-            "id": "6b28ca30545641f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/sidebar3/Права доступа в ОС.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Права доступа в ОС"
-            }
-          },
-          {
-            "id": "40103d237f8a85cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/sidebar1/Пользовательский интерфейс..md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Пользовательский интерфейс."
+              "title": "Установка Linux"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -221,54 +193,59 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidiosaurus:Obsidiosaurus": false
+      "obsidiosaurus:Obsidiosaurus": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "40103d237f8a85cd",
+  "active": "3a908d26758cbebb",
   "lastOpenFiles": [
+    "docs/sidebar3/Лабораторные работы/Файловый менеджер. ЛР 16.md",
+    "docs/sidebar3/Лабораторные работы/Управление файловой системой. ЛР 15.md",
+    "docs/sidebar3/Лабораторные работы/Табличный процессор. ЛР 18.mdx",
+    "docs/sidebar3/Лабораторные работы/Исследование настроек интерфейса. Работа с текстовым редактором и табличным процессором. ЛР 17.mdx",
+    "docs/sidebar3/Лабораторные работы/Графический редактор. ЛР 19.mdx",
+    "docs/sidebar3/Файловые системы.md",
+    "docs/sidebar3/Установка программ.md",
+    "docs/sidebar3/Процессы в ОС.md",
+    "docs/sidebar3/Настройка ОС.md",
+    "docs/sidebar3/Лабораторные работы",
+    "docs/sidebar3",
+    "docs/sidebar2/Лабораторные работы/Работа с командной строкой. ЛР 14.mdx",
+    "docs/sidebar2/Лабораторные работы/Использование приемов администрирования пользователей. ЛР 13.mdx",
+    "docs/sidebar2/Терминал и командная строка в Linux.md",
+    "docs/sidebar2/Права доступа в ОС.md",
+    "docs/sidebar2/Основные команды и их применение.md",
+    "docs/sidebar2/Лабораторные работы",
+    "docs/sidebar2/Администрирование ОС.md",
+    "docs/sidebar2",
+    "docs/sidebar23/Лабораторные работы/Файловый менеджер. ЛР 16.md",
+    "docs/sidebar23/Лабораторные работы/Управление файловой системой. ЛР 15.md",
+    "docs/sidebar23/Лабораторные работы/Табличный процессор. ЛР 18.mdx",
+    "docs/sidebar23/Файловые системы.md",
+    "docs/sidebar23/Установка программ.md",
+    "docs/sidebar23/Процессы в ОС.md",
+    "docs/sidebar23/Настройка ОС.md",
+    "docs/sidebar2/Лабораторные работы/Управление файловой системой. ЛР 15.md",
+    "docs/sidebar1/Пользовательский интерфейс..md",
+    "docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux.md",
+    "docs/sidebar1/Установка Linux.md",
+    "docs/sidebar2/Процессы в ОС.md",
+    "docs/sidebar2/Лабораторные работы/Управление файловой системой. ЛР 17.md",
+    "docs/sidebar2/Лабораторные работы/Файловый менеджер. ЛР 16.md",
+    "docs/sidebar2/Лабораторные работы/Файловый менеджер.md",
+    "docs/sidebar2/Лабораторные работы/Управление файловой системой.md",
+    "docs/sidebar2/Лабораторные работы/Исследование настроек интерфейса. Работа с текстовым редактором и табличным процессором..md",
     "assets/Pasted image 20251216094702.png",
     "assets/Pasted image 20251216094607.png",
-    "docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux.md",
-    "docs/sidebar1/Лабораторные работы/Инсталляция Linux.md",
-    "docs/sidebar1/Установка Linux.md",
     "assets/niripreviewnew.gif",
-    "docs/sidebar1/Пользовательский интерфейс..md",
-    "docs/sidebar2/Лабораторные работы/Управление файловой системой.md",
-    "docs/sidebar2/Настройка ОС.md",
-    "assets/video_2025-12-16_03-55-16.mp4",
-    "docs/sidebar2/Установка программ.md",
-    "docs/sidebar3/Права доступа в ОС.md",
-    "docs/sidebar2/Процессы в ОС.md",
-    "docs/sidebar3/Администрирование ОС.md",
-    "docs/sidebar1/Файловые системы Linux и ее особенности..md",
-    "docs/sidebar2/Лабораторные работы/Исследование настроек интерфейса. Работа с текстовым редактором и табличным процессором..md",
-    "docs/sidebar3/Лабораторные работы/Изучение прав доступа.md",
-    "docs/sidebar3/Лабораторные работы/Использование приемов администрирования пользователей.md",
-    "docs/sidebar2/Файловые системы.md",
-    "docs/sidebar3/Лабораторные работы/Работа с командной строкой.md",
-    "docs/sidebar3/Основные команды и их применение.md",
-    "docs/sidebar3/Терминал и командная строка в Linux.md",
     "assets/niripreview 1.gif",
-    "docs/sidebar2/Лабораторные работы/Исследоване приемов работы с файловой системой.md",
-    "docs/sidebar3/Лабораторные работы",
-    "docs/sidebar2/Лабораторные работы",
-    "docs/sidebar2/Лабораторные работы",
-    "docs/sidebar1/Лабораторные работы",
     "assets/lab14OS_page-0013.jpg",
     "assets/lab14OS_page-0012.jpg",
     "assets/lab14OS_page-0002.jpg",
     "assets/lab14OS_page-0011.jpg",
     "assets/lab14OS_page-0010.jpg",
-    "assets/lab14OS_page-0009.jpg",
-    "assets/lab14OS_page-0008.jpg",
-    "docs/sidebar1/Лабораторная работа 14. Установка Linux..md",
-    "assets/lab14OS.pdf",
-    "assets/lab14.pdf",
-    "assets/ЛР14 - Установка Linux.pdf",
-    "docs/Untitled.md",
-    "docs/sidebar3",
-    "docs/sidebar3",
-    "blog/Untitled.md",
-    "Добро пожаловать.md"
+    "assets/lab14OS_page-0009.jpg"
   ]
 }
