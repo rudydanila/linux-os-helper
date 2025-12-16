@@ -53,12 +53,14 @@
             "id": "40103d237f8a85cd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "assets/niripreviewnew.gif"
+                "file": "docs/sidebar1/Пользовательский интерфейс..md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "niripreviewnew"
+              "icon": "lucide-file",
+              "title": "Пользовательский интерфейс."
             }
           }
         ],
@@ -222,15 +224,17 @@
       "obsidiosaurus:Obsidiosaurus": false
     }
   },
-  "active": "4adf4168efd9152b",
+  "active": "40103d237f8a85cd",
   "lastOpenFiles": [
-    "docs/sidebar1/Установка Linux.md",
-    "docs/sidebar1/Пользовательский интерфейс..md",
-    "assets/niripreviewnew.gif",
-    "docs/sidebar2/Лабораторные работы/Управление файловой системой.md",
-    "docs/sidebar2/Настройка ОС.md",
+    "assets/Pasted image 20251216094702.png",
+    "assets/Pasted image 20251216094607.png",
     "docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux.md",
     "docs/sidebar1/Лабораторные работы/Инсталляция Linux.md",
+    "docs/sidebar1/Установка Linux.md",
+    "assets/niripreviewnew.gif",
+    "docs/sidebar1/Пользовательский интерфейс..md",
+    "docs/sidebar2/Лабораторные работы/Управление файловой системой.md",
+    "docs/sidebar2/Настройка ОС.md",
     "assets/video_2025-12-16_03-55-16.mp4",
     "docs/sidebar2/Установка программ.md",
     "docs/sidebar3/Права доступа в ОС.md",
@@ -257,7 +261,6 @@
     "assets/lab14OS_page-0010.jpg",
     "assets/lab14OS_page-0009.jpg",
     "assets/lab14OS_page-0008.jpg",
-    "assets/lab14OS_page-0007.jpg",
     "docs/sidebar1/Лабораторная работа 14. Установка Linux..md",
     "assets/lab14OS.pdf",
     "assets/lab14.pdf",
