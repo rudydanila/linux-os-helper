@@ -1,0 +1,273 @@
+{
+  "main": {
+    "id": "e9ea5d07a7e2516f",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0dc81eb818974db",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df71d2124e8899e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/sidebar1/Пользовательский интерфейс..md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Пользовательский интерфейс."
+            }
+          },
+          {
+            "id": "3a908d26758cbebb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/sidebar2/Процессы в ОС.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Процессы в ОС"
+            }
+          },
+          {
+            "id": "6b28ca30545641f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/sidebar3/Права доступа в ОС.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Права доступа в ОС"
+            }
+          },
+          {
+            "id": "40103d237f8a85cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/sidebar1/Установка Linux.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Установка Linux"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "14169af56cce1b32",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1a457a0f133beb3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4adf4168efd9152b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f8e9a84890c7ad3a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "d18fb2fca90c2251",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 331.5
+  },
+  "right": {
+    "id": "0a809658e0ac06d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "f511e43fd62de5fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94abcd9b9325bcf6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки"
+            }
+          },
+          {
+            "id": "5b873c29de1cbe35",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки"
+            }
+          },
+          {
+            "id": "851121f65cb81e3b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "3673a71f967b0e45",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Все свойства"
+            }
+          },
+          {
+            "id": "4d70133d141a148f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidiosaurus:Obsidiosaurus": false
+    }
+  },
+  "active": "40103d237f8a85cd",
+  "lastOpenFiles": [
+    "docs/sidebar1/Пользовательский интерфейс..md",
+    "assets/niripreview.gif",
+    "docs/sidebar1/Установка Linux.md",
+    "docs/sidebar2/Лабораторные работы/Управление файловой системой.md",
+    "docs/sidebar2/Настройка ОС.md",
+    "docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux.md",
+    "docs/sidebar1/Лабораторные работы/Инсталляция Linux.md",
+    "assets/video_2025-12-16_03-55-16.mp4",
+    "docs/sidebar2/Установка программ.md",
+    "docs/sidebar3/Права доступа в ОС.md",
+    "docs/sidebar2/Процессы в ОС.md",
+    "docs/sidebar3/Администрирование ОС.md",
+    "docs/sidebar1/Файловые системы Linux и ее особенности..md",
+    "docs/sidebar2/Лабораторные работы/Исследование настроек интерфейса. Работа с текстовым редактором и табличным процессором..md",
+    "docs/sidebar3/Лабораторные работы/Изучение прав доступа.md",
+    "docs/sidebar3/Лабораторные работы/Использование приемов администрирования пользователей.md",
+    "docs/sidebar2/Файловые системы.md",
+    "docs/sidebar3/Лабораторные работы/Работа с командной строкой.md",
+    "docs/sidebar3/Основные команды и их применение.md",
+    "docs/sidebar3/Терминал и командная строка в Linux.md",
+    "assets/niripreview 1.gif",
+    "docs/sidebar2/Лабораторные работы/Исследоване приемов работы с файловой системой.md",
+    "docs/sidebar3/Лабораторные работы",
+    "docs/sidebar2/Лабораторные работы",
+    "docs/sidebar2/Лабораторные работы",
+    "docs/sidebar1/Лабораторные работы",
+    "assets/lab14OS_page-0013.jpg",
+    "assets/lab14OS_page-0012.jpg",
+    "assets/lab14OS_page-0002.jpg",
+    "assets/lab14OS_page-0011.jpg",
+    "assets/lab14OS_page-0010.jpg",
+    "assets/lab14OS_page-0009.jpg",
+    "assets/lab14OS_page-0008.jpg",
+    "assets/lab14OS_page-0007.jpg",
+    "docs/sidebar1/Лабораторная работа 14. Установка Linux..md",
+    "assets/lab14OS.pdf",
+    "assets/lab14.pdf",
+    "assets/ЛР14 - Установка Linux.pdf",
+    "docs/Untitled.md",
+    "docs/sidebar3",
+    "docs/sidebar3",
+    "blog/Untitled.md",
+    "Добро пожаловать.md"
+  ]
+}

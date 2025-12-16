@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/sidebar1/ОС Linux и семейство UNIX. Дистрибутивы Linux">
-            Глава 1. Ввод в ОС Linux.
+            Глава 1. Ввод в ОС Linux. Особенности UI
           </Link>
         </div>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -29,7 +29,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/sidebar2/Администрирование ОС'">
-            Глава 2. Администрирование и управление ОС.
+            Глава 2. Настройка, управление ОС. Файловые системы
           </Link>
         </div>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
@@ -37,7 +37,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/sidebar3/ОС Linux и семейство UNIX. Дистрибутивы Linux">
-            Глава 3: Настройка ОС и установка программ, Файловая система.
+            Глава 3: Работа с терминалом, правами доступа и Администрирование ОС.
           </Link>
         </div>
       </div>
