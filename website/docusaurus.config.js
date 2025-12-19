@@ -26,14 +26,10 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'rudydanila', // Usually your GitHub org/user name.
+  projectName: 'linux-os-helper', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
+  onBrokenLinks: 'ignore',
   i18n: {
     defaultLocale: 'ru',
     locales: ['ru'],
